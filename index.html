@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <main>
+      
+      <div class="passo ativo" id="passo-0">
+        <img src="logo.png">
+        <p> Era uma vez, em uma vila isolada nos alpes austríacos chamada Steinheim. Steinheim costumava ser conhecida por sua beleza singela: casas de madeira com telhados avermelhados, jardins cheios de flores coloridas, e riachos cristalinos que refletiam o céu azul. Os moradores eram amigáveis, e a vila era acolhedora para qualquer viajante que passasse. Mas isso foi antes da maldição.
+
+Há muitos anos, uma bruxa amaldiçoou Steinheim. As flores murcharam, as águas dos riachos tornaram-se sombrias e espessas como piche, e um ar pesado pairava sobre o lugar. Poucos moradores permaneceram, e as casas antes vivas agora estavam em ruínas.
+
+Entre os poucos habitantes que restavam estava Heloísa, uma jovem de coração puro e olhar curioso. Ela era delicada, com cabelos castanhos que caíam suavemente sobre os ombros, e olhos verde-esmeralda que pareciam refletir esperança, mesmo em meio à escuridão. Desde criança, Heloísa sentia-se conectada com Steinheim de uma forma única, mas não sabia que, dentro de si, carregava um poder ancestral que a destinava a quebrar a maldição.
+
+Certa tarde, enquanto vasculhava um baú velho em sua casa, Heloísa encontrou um amuleto antigo, junto a um pergaminho desgastado. Era um legado de seus antepassados, que haviam tentado desfazer a maldição há gerações. Enquanto segurava o amuleto, uma presença espectral surgiu: o espírito de Aldebrandt, um antepassado sábio que lhe explicou sobre o poder adormecido em seu sangue e a missão que agora recaía sobre ela.
+
+Ao partir para sua jornada, Heloísa encontrou Tontu, uma criaturinha fofa e curiosa, com pelos esverdeados e olhos grandes e redondos. Tontu era travesso, mas tinha uma energia vibrante que alegrava Heloísa em momentos sombrios.
+
+Também cruzou caminho com Lorenz, um jovem determinado e destemido que decidiu acompanhá-la. Lorenz vinha de uma família rival à de Heloísa, mas a conexão entre eles era inegável. Seu cabelo castanho claro e olhos azuis profundos contrastavam com o ambiente sombrio ao redor, e seu sorriso era um raro brilho de esperança.
+
+          Agora, Heloísa tem que tomar a primeira decisão que pode guiar o destino dela e de Steinheim. </p>
+        
+        <button class="proximo" data-proximo="1"> Seguir o mapa deixado pelo antepassado.</button>
+        
+        <button class="proximo" data-proximo="2"> Explorar a floresta em busca de respostas.</button>
+      </div>
+      
+      <div class="passo" id="passo-1">
+        <img src="logo.png">
+        <p> 
+        Heloísa decide seguir o mapa. O caminho leva até uma caverna escondida nas montanhas, onde dizem que a maldição teve início. Aldebrandt a alerta para os perigos, mas ela sente que é a decisão certa.
+        </p>
+        
+        <button class="proximo" data-proximo="3"> Entrar na caverna sem hesitação.</button>
+        
+        <button class="proximo" data-proximo="4"> Pedir a ajuda de Lorenz antes de entrar.</button>
+      </div>
+      
+    </main>
+      <div class="passo" id="passo-2">
+<img src="logo.png">
+      <p>
+        Heloísa opta por explorar a floresta. Ao adentrar mais fundo entre as árvores, sente uma presença estranha. Tontu fica agitado e corre na frente, indicando que algo está próximo.
+      </p>
+      
+      <button class="proximo" data-proximo="5"> Seguir Tontu pela trilha desconhecida.</button>
+      
+      <button class="proximo" data-proximo="6"> Ignorar Tontu e procurar outro caminho.</button>
+      </div>
+      
+        <div class="passo" id="passo-5">
+<img src="logo.png">
+      <p>
+        Heloísa segue Tontu pela trilha e chega a uma clareira onde há um círculo de pedras antigas. Tontu aponta para uma pedra central, que parece conter um segredo.
+      </p>
+      
+      <button class="proximo" data-proximo="7">Tocar a pedra e invocar a magia ancestral.</button>
+      
+      <button class="proximo" data-proximo="8">Ignorar a pedra e continuar explorando a floresta.</button>
+      </div>
+      
+      <div class="passo" id="passo-6">
+<img src="perdeu.png">
+      <p>
+        Heloísa ignora Tontu e segue sozinha. No entanto, a floresta fica cada vez mais densa e opressiva, até que ela se perde e não consegue encontrar o caminho de volta. A escuridão a engole, e a maldição permanece intacta.
+FIM: Você perdeu.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+        Reiniciar? 🕹
+      </button>
+
+      </div>
+    
+        <div class="passo" id="passo-7">
+<img src="ganhou.png">
+      <p>
+        Ao tocar a pedra, Heloísa sente uma energia poderosa correr por seu corpo. Aldebrandt aparece novamente e a guia em um ritual para selar a maldição para sempre. O céu sobre Steinheim se ilumina, e a vila volta a ser bela e cheia de vida.
+FIM: Você venceu!
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+    
+      </div>
+      
+        <div class="passo" id="passo-8">
+<img src="logo.png">
+      <p>
+        Se Heloísa optar por continuar, ela volta ao início da jornada e precisa decidir seu próximo passo.
+      </p>
+      
+      <button class="proximo" data-proximo="3">
+        Entrar na caverna sem hesitação.
+      </button>
+      
+      <button class="proximo" data-proximo="4">
+        Pedir a ajuda de Lorenz antes de entrar.
+      </button>
+      </div>
+      
+        <div class="passo" id="passo-3">
+<img src="logo.png">
+      <p>
+        Heloísa entra na caverna sozinha, determinada a enfrentar o que quer que esteja lá dentro. Ela encontra uma fonte de água escura e um brilho estranho vindo de dentro dela. Ao tocar a água, sente um poder se espalhar por seu corpo.
+      </p>
+      
+      <button class="proximo" data-proximo="9">
+         Mergulhar na fonte para buscar o amuleto perdido.
+      </button>
+      
+      <button class="proximo" data-proximo="10">
+        Recuar e deixar a caverna, pressentindo o perigo.
+      </button>
+      </div>
+      
+    <div class="passo" id="passo-4">
+<img src="ganhou.png">
+      <p>
+        Heloísa pede ajuda a Lorenz, e juntos eles entram na caverna. Com a força e o apoio de Lorenz, Heloísa consegue passar por um portal místico e encontrar o coração da maldição, uma pedra vermelha pulsante. Ao destruí-la, a maldição é quebrada, e Steinheim começa a florescer novamente.
+FIM: Você venceu!
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+      
+      </div>
+      
+        <div class="passo" id="passo-10">
+<img src="perdeu.png">
+      <p>
+        Ao recuar e deixar a caverna, Heloísa perde a oportunidade de desfazer a maldição, e Steinheim continua desolada.
+FIM: Você perdeu.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+         Reiniciar? 🕹
+      </button>
+      
+    </div>
+          
+            <div class="passo" id="passo-9">
+<img src="ganhou.png">
+      <p>
+        Heloísa mergulha na fonte e recupera um amuleto, o qual contém a chave para desfazer a maldição. Ao sair, percebe que Steinheim começou a florescer novamente.
+FIM: Você venceu!
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+      
+      </div>
+    <footer>
+      <p> Criado por <a
+href="https://github.com/heloisapossetti"> Heloisa Silva Possetti</a></p>
+    </footer>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>
